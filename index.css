@@ -9,12 +9,9 @@ body{
 	background-color:white;
 	width:70%;
 	height:2000px;
+	margin-top: 25px;
 	margin-bottom: 25px;
-	position: absolute;
-	left:15%;
 	top:25px;
-	display: flex;
-    justify-content: center;
 }
 #timeGraph{
 	width: 100px;
