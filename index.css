@@ -13,44 +13,48 @@ body{
 	top: 250px;
 	margin-bottom: 25px;
 	top:25px;
+	display: flex;
+	justify-content: center;
 }
 #timeGraph{
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
 	border-style: solid;
-	margin:0 auto;
 	position: absolute;
-	top:30px;
+	top:50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 #circle{
 	background:gray;
 	background-image:linear-gradient(to right, transparent 50%, #e60000 0);
-	height: 100px;
-	width: 100px;
+	height: 100%;
+	width: 100%;
 	border-radius: 50%;
 }
 #coverBox{
-	height:100px;
-	width:100px;
+	height:100%;
+	width:100%;
 	margin:0px;
 	position: absolute;
 	top:0px;
 }
 #cover{
-	height:50px;
-	width:100px;
-	border-top-right-radius: 50px;
-	border-top-left-radius: 50px;
+	height:50%;
+	width:100%;
+	border-top-right-radius: 100px;
+	border-top-left-radius: 100px;
 	background-color: gray;
 	position: absolute;
 	top: 0px;
 }
 #percent{
 	position: absolute;
-	height: 35px;
-	width: 35px;
-	text-align: center;
-	top:35px;
-	left: 33.5px;
+	height: 40px;
+	width: 40px;
 	color: white;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;
 }
