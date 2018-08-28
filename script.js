@@ -28,7 +28,6 @@ function rotateChart() {
 	var timeRotation = sideRotate+(percent * 360);
 	document.getElementById("coverBox").style.transform = "rotate("+timeRotation+"deg)";
 	//setTimeout(rotateChart,100);
-	document.getElementById("demo").innerHTML = d.getSeconds();
 }
 
 setInterval(rotateChart, 100);
